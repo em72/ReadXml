@@ -12,6 +12,7 @@ namespace readXml
     {
         static void Main(string[] args)
         {
+            // Skapa ett rotelement
             XElement root = XElement.Load("Courses.xml");
  
             // Find all elements of "Address" and select only elements where attribute Type is "Billing"
